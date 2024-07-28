@@ -1,0 +1,46 @@
+.page{
+  background: url(../images/lonyyx2.png);
+  background-size: 393px 393px;
+  border: 1px solid red;
+  height: 1179px;
+  margin: 0;
+}
+
+.header{
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-top: 20px;
+  border: 1px solid red;
+}
+
+.header_name{
+  line-height: 20px;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 8px;
+  color: firebrick;
+}
+
+.header_who{
+  width: 40px;
+  margin-top: 3px;
+  font-size: 1px;
+  line-height: 1px;
+  font-weight: 400;
+  margin-left: 45px;
+  color: darkred;
+}
+
+.main{
+  
+}
+
+.info{
+  
+}
+
+.info_who{
+  
+}
