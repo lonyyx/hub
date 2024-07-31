@@ -3,11 +3,10 @@
   background-repeat: no-repeat;
   width: 1000px;
   height: 1000px;
-  border: 1px solid red;
 }
 
 .header{
-  border: 1px solid red;
+
 }
 
 .header_name{
@@ -15,7 +14,6 @@
   font-size: 35px;
   width: 246px;
   color: #7EAE00;
-  border: 1px solid yellow;
   margin: auto;
 }
 
@@ -25,18 +23,46 @@
   color: #FF4300;
   margin-left: 100px;
   width: 48.2px;
-  border: 1px solid yellow;
 }
 
 .main{
-  border: 1px solid lime;
+  margin-top: 50px;
 }
 
 .info{
-  border: 1px solid lime;
+  background-image: url(../images/background_white.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 468px;
+  height: 141px;
+  border: 3px solid white;
 }
 
 .info_who{
-  border: 1px solid lime;
   font-family: Yanone Kaffeesatz;
+  width: 428px;
+  font-size: 25px;
+  padding-top: 20px;
+  margin: auto;
+  background: linear-gradient(to right, #FD0000 0%, #AC049E 25%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.info_who::before{
+  content: "♦";
+  background: #fddb92;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.info_who2{
+  margin-top: -5px;
+}
+
+.info_who2::before{
+  content: "♦";
+  background: #fddb92;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
