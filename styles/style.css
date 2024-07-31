@@ -1,46 +1,42 @@
 .page{
-  background: url(../images/lonyyx2.png);
-  background-size: 393px 393px;
+  background: linear-gradient(45deg, #fddb92, #d1fdff);
+  background-repeat: no-repeat;
+  width: 1000px;
+  height: 1000px;
   border: 1px solid red;
-  height: 1179px;
-  margin: 0;
 }
 
 .header{
-  width: 100px;
-  height: 100px;
-  margin: auto;
-  margin-top: 20px;
   border: 1px solid red;
 }
 
 .header_name{
-  line-height: 20px;
-  font-size: 20px;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 8px;
-  color: firebrick;
+  font-family: Playwrite Hrvatska Lijeva;
+  font-size: 35px;
+  width: 246px;
+  color: #7EAE00;
+  border: 1px solid yellow;
+  margin: auto;
 }
 
 .header_who{
-  width: 40px;
-  margin-top: 3px;
-  font-size: 1px;
-  line-height: 1px;
-  font-weight: 400;
-  margin-left: 45px;
-  color: darkred;
+  font-family: Yanone Kaffeesatz;
+  font-size: 15px;
+  color: #FF4300;
+  margin-left: 100px;
+  width: 48.2px;
+  border: 1px solid yellow;
 }
 
 .main{
-  
+  border: 1px solid lime;
 }
 
 .info{
-  
+  border: 1px solid lime;
 }
 
 .info_who{
-  
+  border: 1px solid lime;
+  font-family: Yanone Kaffeesatz;
 }
