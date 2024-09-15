@@ -59,13 +59,6 @@
   -webkit-text-fill-color: transparent;
 }
 
-.info_who::before {
-  content: "♦";
-  background: #fddb92;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .feedback {
   font-family: Playwrite Hrvatska Lijeva;
   display: block;
@@ -91,17 +84,39 @@
 }
 
 .cube {
-  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .img__cube {
   width: 300px;
   height: 300px;
   margin-top: 100px;
+  margin-left: 150px;
+}
+
+.cube__title {
+  font-family: Yanone Kaffeesatz;
+  margin-top: 130px;
+  line-height: 25px;
+  font-size: 23px;
+  color: rgb(0, 141, 122);
+  width: 500px;
+}
+
+.cube__subtitle {
+  font-family: Yanone Kaffeesatz;
+  color: rgb(0, 141, 122);
+  margin-top: 100px;
+  margin-left: 150px;
+  width: 300px;
+  font-size: 23px;
+  line-height: 25px;
 }
 
 .img__cube2 {
-  position: absolute;
+  margin-top: 50px;
   width: 300px;
   height: 300px;
 }
